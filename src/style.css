@@ -1,0 +1,26 @@
+.square{
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3,110px);
+}
+
+.container{
+  margin-left:600px;
+}
